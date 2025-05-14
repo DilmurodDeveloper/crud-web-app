@@ -1,9 +1,8 @@
-namespace crud_web_app.Models
+﻿namespace crud_web_app.Models
 {
     public class ErrorViewModel
     {
-        public string? RequestId { get; set; }
-
+        public required string RequestId { get; set; }
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
